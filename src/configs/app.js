@@ -2,9 +2,6 @@ import "dotenv/config";
 import express from "express";
 import expressEjsLayouts from "express-ejs-layouts";
 
-// Import router
-import webRouter from "../routers/web-router.js";
-
 const app = express();
 
 // Middlewares
